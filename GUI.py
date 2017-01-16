@@ -1,6 +1,7 @@
+# import Tkinter  
 from tkinter import *
 
-
+# define a drived class "Application" whose base class is "Frame"
 class Application(Frame):
     def __init__(self, master=None):
         Frame.__init__(self, master)
@@ -18,13 +19,13 @@ class Application(Frame):
         self.quitButton.pack()
 
 
-
+# 
 def main():
     app = Application()
     app.master.title('H')
     app.mainloop()
 
-
+#
 main()
 
 
